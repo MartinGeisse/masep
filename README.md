@@ -36,6 +36,7 @@
     * PP is described to hold HF (try)
   * oxide growth
     * hot furnace (900-1200°C) needed for acceptable grow time
+    * furnace should not leak carbon into the silicon
     * wet oxidation is faster, but may produce low-quality surface or even conductive surface
     * wet oxidation is not hot enough to split water, but the water/silicon reaction does
     * self-ignition temperature of hydrogen is ca. 550°C, but furnace walls and other factors may prevent self-ignition,
@@ -55,8 +56,9 @@
   * (cleaning jeweils Teil dieser schritte, kein separater Schritt, da Schritt-abhängig)
 * processes
   * MaSeP-1m
-    * keine Photographie
-      * Versuch, ob Edding die Ätzpaste abkann
-      * falls nein, Photoresist und darauf mit Edding malen
+    * skip complex photography
+        * (try) use permanent marker on the die and check if it withstands HF
+        * alternative: use marker to draw a mask directly onto the photoresist, then continue as usual
+    * should be able to build a few-transistor chip on a (1cm)^2 piece of wafer, e.g. a 2-NAND or 3-NAND
   * MaSeP-100u
   
